@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.nav-link {
+  font-weight: bold;
+}
+.header {
+  min-height: calc(100vh - 180px);
+  background: url("../img/bg-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-text {
+  background: #ffe105;
+  color: white;
+  border-radius: 40% 30% 40% 30%;
+  margin-top: 8%;
+  min-width: 40%;
+  min-height: 40%;
+  opacity: 0.9;
+}
+.header-text .btn {
+  background: #ffe105;
+  border: 1px solid white;
+  color: white;
+}
+.booking-section {
+  background: #4caf50;
+}
+.booking-section .btn {
+  background: #f4aa09;
+}
+.mother-baby {
+  background: url("../img/welcome_mother.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40% 30% 40% 30%;
+}
+.welcome .firstParagraph {
+  color: #35ddd8;
+  text-align: center;
+  text-justify: auto;
+}
+.welcome .secondParagraph {
+  text-align: center;
+  text-justify: auto;
+  font-size: 12px;
+}
+.img-container {
+  max-width: 120px;
+  height: 120px;
+  border-radius: 40% 30% 40% 30%;
+  margin: 0 auto;
+  position: relative;
+  opacity: 0.9;
+}
+.centerCircle {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.red {
+  background: #f4aa09;
+}
+.yellow {
+  background: #ffe105;
+}
+.green {
+  background: #4caf50;
+}
+.cyan {
+  background: #35ddd8;
+}
+.stats {
+  background: url("../img/statsBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.services {
+  background: #f4aa09;
+}
+.services .btn {
+  background: #f4aa09;
+  border: 1px solid white;
+  color: white;
+}
+.children {
+  background: url("../img/children.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 40% 30% 25% 35%;
+}
+.image1 {
+  background: url("../img/image1.jpg");
+}
+.image2 {
+  background: url("../img/image2.jpg");
+}
+.image3 {
+  background: url("../img/image3.jpg");
+}
+.img-prop {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 170px;
+  height: 170px;
+  margin: 0 auto;
+  border-radius: 40% 30% 40% 30%;
+  position: relative;
+}
+.customer-icon {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 80%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  border-radius: 40% 30% 40% 30%;
+}
+.testimonials h4 {
+  color: #5ccebd;
+}
+.testimonials p {
+  color: grey;
+}
+.footer {
+  background: #f0f7ef;
+}
+.footer .list1 {
+  color: #35ddd9;
+}
+.footer .list2 {
+  color: #5ccebd;
+}
+.footer .list3 {
+  color: #d88352;
+}
+.copyright {
+  font-size: 0.8rem;
+}
